@@ -1,0 +1,65 @@
+body {
+  background-color: #c5dfc5
+}
+
+nav {
+    position : absolute;
+    left : 0;
+    width : 60%;
+    background: #c5dfc5;
+    }
+
+nav ul {
+    margin : 0 auto;
+    width : 940px;
+    list-style : none;
+    }
+
+nav ul li {
+    float : left;
+    }
+
+nav ul li a {
+    display : block;
+    margin-right : 20px;
+    width : 140px;
+    font-size : 14px;
+    line-height : 44px;
+    text-align : center;
+    text-decoration : none;
+    color : rgb(246, 245, 247);
+    }
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+div.franja {
+    position: relative;
+    margin-top: 800px;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+}
+div.imagen{
+  width: 50%;
+}
+div.cuerpo{
+  width: 50%;
+}
+
+div.pic {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    }
+
+div.pic:hover {
+    border: 1px solid #777;
+    }
+
+div.pic pic {
+    width: 100%;
+    height: auto;
+}
